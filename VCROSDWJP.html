@@ -4,14 +4,20 @@
     <meta charset="UTF-8">
     <title>Tottu_1280</title>
 </head>
-<body bgcolor="#000000" style="color: #ffffff;font-size: 20px;">
+<body bgcolor="#000000" style="color: #ffffff;font-size: 25px;">
     <a href="index.html" style="color: #ffffff;font-size: 25px;">戻る</a><br>
+    <div class="imgt">
+        <img src="images/VCROSDWJPsample.png" alt="img"><br>
+    </div>
     <div style="text-align: center;">
         <p class="text-xlarge">こちらのページはVCR OSD Monoの日本語込みバージョンのフォント、VCR OSD W JPの配布ページとなります。
             <br>
             VCR OSD W JPは古いテレビに映っているフォントをベースのコンセプトとするVCR OSD Monoの改変版です。ゲームや絵などに埋め込むことができます。
         </p>
         <h1>収録文字</h1>
+        <div class="imgt">
+        <img src="images/VCROSDWJPsample1.png" alt="img"><br>
+        </div>
         <p>ひらがな　カタカナ　一部漢字</p>
         <br>
         <input type="text"　placeholder="test" class="dark-input" placeholder = "フォント試し打ち" required>
@@ -33,21 +39,24 @@
     </div>
 </body>
 <style> 
+    div.imgt {
+       text-align: center;
+    }
     @font-face {
-        font-family: 'VCRJP';
-        src: url('./VCROSDMonoJP-Regular.ttf') format('truetype');
+        font-family: 'VCROSDWJP';
+        src: url('./VCROSDWJP.ttf') format('truetype');
         font-weight: normal;
         font-style: normal;
     }
     body{
-        font-family: 'VCRJP', sans-serif;
+        font-family: 'VCROSDWJP', sans-serif;
     }
     .dark-input {
             background-color: #000000; 
             color: #ffffff;
             border: 2px solid #ffffff; 
             
-            font-family: 'VCRJP', sans-serif;
+            font-family: 'VCROSDWJP', sans-serif;
         
             font-size: 20px;
             padding: 8px;
