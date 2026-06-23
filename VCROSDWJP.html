@@ -15,8 +15,8 @@
             VCR OSD W JPは古いテレビに映っているフォントをベースのコンセプトとするVCR OSD Monoの改変版です。ゲームや絵などに埋め込むことができます。
         </p>
         <h1>収録文字</h1>
-        <div class="imgt">
-        <img src="images/VCROSDWJPsample1.png" alt="img"><br>
+        <div class="fontPreviews">
+             !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ ¡¢£¥¦¨©ª«®°²³´¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõöøùúûüýþÿ;‘’“”•…‹›⁄₣₤₧€™←↑→↓↔∕▲►▼◄、。「」ぁあぃいぅうぇえぉおかがきぎくぐけげこごさざしじすずせぜそぞただちぢっつづてでとどなにぬねのはばぱひびぴふぶぷへべぺほぼぽまみむめもゃやゅゆょよらりるれろゎわゐゑをんゔゕゖ゛゜ゝゞァアィイゥウェエォオカガキギクグケゲコゴサザシジスズセゼソゾタダチヂッツヅテデトドナニヌネノハバパヒビピフブプヘベペホボポマミムメモャヤュユョヨラリルレロヮワヰヱヲンヴヵヶヷヸヹヺ・ーヽヾ一丁七万丈三上下不与丑且世丘丙丞両並中串丸丹主乃久之乍乎乏乗乙九乞也乱乳乾亀了予争事二云互五井亘亙些亜亡交亥亦亨享京亭亮人什仁仇今介仏仔仕他付仙代令以仮仰仲件任低作使修個倒側像元入全公内再凍出切初制削力加動化南占去収古可各合含告品四囲地埋報場塞境変夜夢好始字安完定室家専導履左差布帯常年幸度式当形影彼待得心必志応急恵悪意感成戻手打持捕換撮改救数整文料斧断新方日旧明昏易昔映昼時書最月有期木本板検構正歩歴死殺氏水没法注洞消漢無版特独獲理環用画発的直知私窟範約終組絵続維編罠置翻者能脱自般良色虐行要見規解言記設訳試語誤調請負責質起軽辺込迷追道達適遺部配量錠録鍵開間関限除集雑難霧非音項願食高魅黄
         </div>
         <p>ひらがな　カタカナ　一部漢字</p>
         <br>
@@ -33,7 +33,9 @@
         <p>元フォント:<a href = "https://fontmeme.com/jfont/vcr-osd-mono-font/">VCR OSD Mono</a></p>
         <p>フォント改変:Tottu_1280</p>
         <h1>アップデート履歴</h1>
-        <p>2026/6/23 公開しました</p>
+        <p>2026/6/23:<br>
+        公開しました<br>
+        一部漢字を追加しました</p>
         <br>
         <br>
     </div>
@@ -65,8 +67,24 @@
         }
     .dark-input::placeholder {
             color: #aaaaaa;  
-            text-align: center;          /* 少し薄いグレーにして読みやすくする */
+            text-align: center;
         }
+    .fontPreviews {
+        background-color: #000000;
+        color: #ffffff;
+        border: 0px;
+
+        font-family: 'VCROSDWJP', sans-serif;
+
+        font-size: 26px;
+        padding: 8px;
+
+        width: 700px;
+        margin: 0 auto;
+
+        overflow-wrap: break-word;
+        word-break: break-all;
+    }
     .text-xlarge {
             font-size: 30px;
     }
@@ -75,7 +93,7 @@
         text-decoration: underline;
     }
     a:hover {
-        color: #ff3300; /* マウスを乗せたときの色 */
+        color: #ff3300;
     }
 </style>
 </html>
